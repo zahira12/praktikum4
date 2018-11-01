@@ -35,7 +35,7 @@
 		else {
 		diskon = 0;
 		}
-	~ Berikut kode lengkapnya
+~ Berikut kode lengkapnya
 
 	#include <iostream>
 
@@ -82,86 +82,86 @@
 	else
 	if (kode==2)
 	{
-	cout<<" Nama Barang     = Nike\n";
-	cout<<" Harga           = Rp. 150000,-\n";
-	cout<<" Jumlah Barang   = ";
-	cin>>N;
-	harga=150000;
-	total=harga*N;
-	cout<<" Total Harga  = Rp"<<total;
-	cout<<"\n";
+		cout<<" Nama Barang     = Nike\n";
+		cout<<" Harga           = Rp. 150000,-\n";
+		cout<<" Jumlah Barang   = ";
+		cin>>N;
+		harga=150000;
+		total=harga*N;
+		cout<<" Total Harga  = Rp"<<total;
+		cout<<"\n";
 	}
 	else
-	if (kode==3)
+		if (kode==3)
 	{
-	cout<<" Nama Barang     = Vans\n";
-	cout<<" Harga           = Rp. 3000000,-\n";
-	cout<<" Jumlah Barang   = ";
-	cin>>N;
-	harga=300000;
-	total=harga*N;
-	cout<<" Total Harga  = Rp"<<total;
-	cout<<"\n";
+		cout<<" Nama Barang     = Vans\n";
+		cout<<" Harga           = Rp. 3000000,-\n";
+		cout<<" Jumlah Barang   = ";
+		cin>>N;
+		harga=300000;
+		total=harga*N;
+		cout<<" Total Harga  = Rp"<<total;
+		cout<<"\n";
 	}
 	else
-	if (kode==4)
+		if (kode==4)
 	{
-	cout<<" Nama Barang      = Adidas\n";
-	cout<<" Harga            = Rp. 300000,-\n";
-	cout<<" Jumlah Barang    = ";
-	cin>>N;
-	harga=300000;
-	total=harga*N;
-	cout<<" Total Harga  = Rp"<<total;
-	cout<<"\n";
+		cout<<" Nama Barang      = Adidas\n";
+		cout<<" Harga            = Rp. 300000,-\n";
+		cout<<" Jumlah Barang    = ";
+		cin>>N;
+		harga=300000;
+		total=harga*N;
+		cout<<" Total Harga  = Rp"<<total;
+		cout<<"\n";
 	}
 	else
-	if (kode==5)
+		if (kode==5)
 	{
-	cout<<" Nama Barang     = Puma\n";
-	cout<<" Harga           = Rp. 500000,-\n";
-	cout<<" Jumlah Barang   = ";
-	cin>>N;
-	harga=500000;
-	total=harga*N;
-	cout<<" Total Harga  = Rp"<<total;
-	cout<<"\n";
+		cout<<" Nama Barang     = Puma\n";
+		cout<<" Harga           = Rp. 500000,-\n";
+		cout<<" Jumlah Barang   = ";
+		cin>>N;
+		harga=500000;
+		total=harga*N;
+		cout<<" Total Harga  = Rp"<<total;
+		cout<<"\n";
 	}
 	else
 	{
-	cout<<"-Invalid Number-\a";
+		cout<<"-Invalid Number-\a";
 	goto ulang;
 	}
 	bayar=bayar+total;
 	}
-	cout<<"\nTotal Bayar\t\t        = Rp"<<bayar<<",-";
-	cout<<"\n\n\Masukan Pembayaran  = Rp";cin>>duit;
-	if((bayar>1000000)){
-	diskon = bayar*0.10;
-	cout<<"\nKamu Dapat Diskon 10%\t";
+		cout<<"\nTotal Bayar\t\t        = Rp"<<bayar<<",-";
+		cout<<"\n\n\Masukan Pembayaran  = Rp";cin>>duit;
+		if((bayar>1000000)){
+		diskon = bayar*0.10;
+		cout<<"\nKamu Dapat Diskon 10%\t";
 	}else
-	if((bayar>=501000)&& (bayar<=1000000)){
-	diskon = bayar*0.05;
-	cout<<"\nKamu Dapat Diskon 5%\t";
+		if((bayar>=501000)&& (bayar<=1000000)){
+		diskon = bayar*0.05;
+		cout<<"\nKamu Dapat Diskon 5%\t";
 	}else
-	if((bayar<501000)){
-	diskon = 0;
-	cout<<"\nKamu Dapat Diskon 0%\t";
+		if((bayar<501000)){
+		diskon = 0;
+		cout<<"\nKamu Dapat Diskon 0%\t";
 	}
 	else {
-	diskon = 0;
+		diskon = 0;
 	}
-	akhir       =bayar-diskon;
-	kembalian   =duit-akhir;
+		akhir       =bayar-diskon;
+		kembalian   =duit-akhir;
 
-	cout<<"\nKamu Dapat Diskon\t  = Rp"<<diskon<<",-";
-	cout<<"\nCash Back\t          = Rp"<<kembalian<<",-";
-	cout<<"\n\n\t\t\t((((TERIMA KASIH))))";
-	cout<<"\n\n\n\n\nPembelian Baru [y/t] ";cin>>pembelian;
-	if (pembelian=='y'||pembelian=='Y')
-	goto atas;
+		cout<<"\nKamu Dapat Diskon\t  = Rp"<<diskon<<",-";
+		cout<<"\nCash Back\t          = Rp"<<kembalian<<",-";
+		cout<<"\n\n\t\t\t((((TERIMA KASIH))))";
+		cout<<"\n\n\n\n\nPembelian Baru [y/t] ";cin>>pembelian;
+		if (pembelian=='y'||pembelian=='Y')
+		goto atas;
 	else
-	cout<<"\n\n\t\t\tProgram Logging Off....";
+		cout<<"\n\n\t\t\tProgram Logging Off....";
 	}
 
 
