@@ -68,19 +68,19 @@
 	 cout<<" \n\nMasukan Kode Barang = ";
 	cin>>kode;
 	cout<<"\n";
- 	   if (kode==1)
+ 		if (kode==1)
 	{
-	cout<<" Nama Barang     = Yeezy Sneakers\n";
-	cout<<" Harga           = Rp. 180000,-\n";
-	cout<<" Jumlah Barang   = ";
-	cin>>N;
-	harga=180000;
-	total=harga*N;
-	cout<<" Total Harga  = Rp"<<total;
-	cout<<"\n";
+		cout<<" Nama Barang     = Yeezy Sneakers\n";
+		cout<<" Harga           = Rp. 180000,-\n";
+		cout<<" Jumlah Barang   = ";
+		cin>>N;
+		harga=180000;
+		total=harga*N;
+		cout<<" Total Harga  = Rp"<<total;
+		cout<<"\n";
 	}
 	else
-	if (kode==2)
+		if (kode==2)
 	{
 		cout<<" Nama Barang     = Nike\n";
 		cout<<" Harga           = Rp. 150000,-\n";
@@ -165,7 +165,7 @@
 	}
 
 
-	~ Berikut Flowchartnya
+~ Berikut Flowchartnya
 
 ![img](https://github.com/zahira12/praktikum4/blob/master/latihan1/flowchart.png)
 
